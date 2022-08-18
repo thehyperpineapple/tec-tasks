@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif; 
+    color: #dde5f6;
+}
+body{
+    background-image: url(Images/bg.jpg);  
+    background-size: cover;
+}
+.main-title{
+    text-align:center;
+    font-size: 4.5em;
+    color: #adc0e9;
+}
+.footer-div{
+    padding: 0.25em;
+    margin: 0px;
+    display:block;
+}
+.footer-ul li img{
+    width: 24px;
+    height: 24px;
+    border-radius: 70%;
+
+}
+.footer-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;    
+}
+
+.footer-ul li {
+    padding: 1em;
+    display:inline
+}
+
+.wrapper{
+    margin-top: 200px;
+}
+.wrapper h2{
+    font-size: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #adc0e9;
+}
+.project-all{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-all .project{
+    background-color: black;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 50px;
+    line-height: 20px;
+    color: blanchedalmond;
+    position: relative;
+}
+.project h3{
+    color: crimson;
+    font-size: 2.5em;
+    margin-top: 75px;
+}
+.project p.desc{
+    color: aquamarine;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    margin-bottom: 30px;
+
+}
+.project-all .project .project-icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top:-70px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.project-all .project .project-icon img{
+    height: 125px;
+    padding: 5px;
+}
+
+.main-desc{
+    margin-top: 75px;
+    margin-left: 250px;
+    margin-right: 500px;
+    margin-bottom: 75px;
+    font-size: 20px;
+}
+  
+.lang-icon{
+    width: 100px;
+    align-items: center;
+}
+.column {
+    float: left;
+    width: 45%;
+    padding: 15px;
+    margin: 10px;
+    transition: 2s;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.lang{
+    float: right;
+    font-size: 30px;
+}
+.column :hover{
+    transform: scale(1.1,1.1);
+}
+.face {
+    width: 250px;
+    float: right;
+    margin-right: 200px;
+    border-radius: 10%;
+    margin-top: -40px;
+}
+.main-nav ul {
+    margin:0px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,0.6); 
+}
+.main-nav li {
+    margin:0px;
+    display:inline;
+    padding: 0 5%   
+    
+}
+.main-nav a{
+    color: white;
+    padding: 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color:#296288bd;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(0,0,0,0.6);   
+}
+.footer-title{
+    margin-left: 15px;
+    text-align: left;
+    margin-top: 30px;
+}
